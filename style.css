@@ -1,0 +1,1824 @@
+
+@font-face {
+    font-family: 'Formula Condensed';
+    src: local('Formula Condensed'), url('Fonts/Fonts/FormulaCondensed-Black.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'PP Supply Sans';
+    src: local('PP Supply Sans'), url('Fonts/Fonts/PPSupplySans-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Maax Mono';
+    src: local('Maax Mono'), url('Fonts/Fonts/Maax-BoldMono.otf') format('opentype');
+}
+
+
+
+
+.custom-background{
+    background: #C3C3C3;
+    overflow-x: hidden;
+    overflow-y: transparent
+}
+
+
+
+@keyframes lightPulse {
+    0% {
+        box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 30px 10px rgba(0, 0, 255, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
+    }
+}
+
+.card img {
+    animation: lightPulse 3s infinite;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
+}
+
+
+
+
+.game3dev-text-left {
+    color: #111212;
+    font-size: 15vw;
+    font-family: "Formula Condensed";
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.d-inline-block{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1{
+    margin-bottom:0;
+    padding-bottom:0;
+}
+
+.AMetadecryptEventPoweredByRock34x {
+    color: #111212;
+    margin-top:0;
+    padding-top:0;
+    font-size: 1.2vw;
+    font-family: "Maax Mono", monospace;
+    text-transform: uppercase;
+}
+
+.Date25 h2{
+    color: #111212;
+    font-family: "PP Supply Sans", sans-serif;
+    font-size: 6vw;
+    
+}
+
+.RiyadhSa h3{
+    color: #111212;
+    font-family: "PP Supply Sans", sans-serif;
+    font-size: 2vw;
+    margin-top:2%;
+    text-transform: bold;
+}
+.APR h3.text-end {
+    color: #111212;
+    font-size: 5vw;
+    font-family: "PP Supply Sans", sans-serif;
+    display: flow;
+    margin-top: -90px;
+}
+
+.summit h1.text-end {
+    font-size: 13vw;
+    color: #111212;
+    font-family: "Formula Condensed";
+    letter-spacing: 4px;
+}
+
+
+.reduce-margin-top {
+    margin-top: -85px; /* Adjust this value as needed */
+}
+
+
+.stone {
+    transition: transform 0.5s ease-in-out;
+    position: fixed;
+    z-index: -2;
+    width: 50vw;
+    height: 50vh;
+    top: 14%;
+    left: 13%;
+}
+
+.stone-scroll {
+    transform: translateY(100vh) scale(1);
+    /*Initialscalevalue*/:;
+    -webkit-transform: translateY(100vh) scale(1);
+    -moz-transform: translateY(100vh) scale(1);
+    -ms-transform: translateY(100vh) scale(1);
+    -o-transform: translateY(100vh) scale(1);
+}
+
+
+
+
+/* Show dropdown on hover */
+
+.mine{
+    background-color: #000;
+    border:1px solid #000;
+    font-family: pp supply sans;
+    
+}
+
+.mine:hover{
+    background-color:  #f0f0f0;
+    color: #000;
+    border:1px solid #000;
+    
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+
+
+
+.dropdown-menu {
+
+    background-color: transparent;
+    /*Setbackgroundcolortotransparent*/:;
+    -webkit-border-radius: n;
+    -moz-border-radius: n;
+    -ms-border-radius: n;
+    -o-border-radius: n;
+}
+
+
+.dropdown-menu .dropdown-item {
+    border-radius: 15px;
+    
+    
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+.dropdown-menu .dropdown-item:focus {
+
+    background-color: #C3C3C3;
+}
+.btn-menu {
+    margin-top: 11%;
+    
+    font-family: pp supply sans;
+    text-transform: uppercase;
+}
+
+
+
+.btn.mine.btn-primary:focus,
+.btn.mine.btn-primary.focus {
+    
+
+    background-color: #000;
+    border-color: #000; /* Optionally change border color */
+    box-shadow: none; /* Optionally remove box shadow */
+}
+
+
+
+
+.year2024{
+    font-family: "PP Supply Sans", sans-serif;
+    margin-top: 11%;
+}
+
+.year2024 h3 {
+    color: #111212;
+    font-size: 5vw;
+}
+
+.topbtn{
+    margin-top: 10px;
+}
+
+/* Override Bootstrap button's :active state */
+.btn.preregister.btn-primary:focus{
+    background-color: #000; /* Change to your desired color */
+    border-color: #none; /* Optionally change border color */
+    border:1px solid #000;
+}
+
+
+
+
+.preregister{
+    margin-bottom: 10px;
+    background-color: #111212;
+    color: #BCE32C;
+    border:1px solid #000;
+    
+}
+.preregister:hover{
+    background-color: #BCE32C;
+    border:1px solid #000;
+}
+
+
+
+.contact{
+    background-color: transparent;
+    color: #111212;
+    border:1px solid #000;
+
+}
+
+.contact:hover{
+    background-color: transparent;
+    border:1px solid #000;
+}
+
+.btn.contact.btn-primary:active {
+    background-color: #111212; /* Change to your desired color */
+    border-color: #000; /* Optionally change border color */
+    border:1px solid #000; /* Optionally remove box shadow */
+}
+
+/* ----------------------------------------------------------------
+
+                wite class started
+--------------------------------------------------------------- */
+.wite {
+    color: #111212;
+    font-family: "PP Supply Sans", sans-serif;
+    margin-top: 21%;
+    margin-bottom: 15%;
+}
+
+.first h3 ,.second h3  ,.third h3 , .fourth h3 , .fifth h3{
+    font-size:5vw;
+    line-height: 1.5;
+    color: #111212;
+}
+    
+.celebration{
+margin-left: 5%;
+}
+
+
+.astrick-custom {
+    margin-left: 30%;
+}
+
+.gaming{
+    margin-left:39%
+}
+
+.culture {
+    margin-left: 30%;
+}
+
+.margin-left-for-and {
+        margin-left: 17%; /* Adjust the value as needed */
+}
+
+.bars{
+    margin-left:30%;
+}
+
+
+@keyframes galaxyBreath {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.wite > div {
+    animation: galaxyBreath 5s infinite ease-in-out;
+}
+
+
+
+
+/* ----------------------------------------------------------------
+            wite css ends  what is the event  css ends
+
+---------------------------------------------------------------- */
+
+/* 
+------------------------------------------------------------------
+            ct css start  content tracks :start
+
+------------------------------------------------------------------- */
+.ct {
+    margin-top: 7%;
+    margin-bottom: 2%;
+}
+
+.custom-text-style {
+    font-size: 12vh;
+    /*Convert110pxtoviewportheight(vh)units*/letter-spacing: 3px;
+    font-weight: 100;
+    color: #111212;
+    font-family: "Formula Condensed";
+    word-wrap: break-word;
+    transition: font-size 0.3s ease;
+     /* Smooth transition for font size */:;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+}
+
+.card-body {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ct div {
+    transition: transform 1s ease-in-out, color 0.7s ease;
+    /*Smoothtransitionfortransformandcolor*/:;
+    -webkit-transition: transform 1s ease-in-out, color 0.7s ease;
+    -moz-transition: transform 1s ease-in-out, color 0.7s ease;
+    -ms-transition: transform 1s ease-in-out, color 0.7s ease;
+    -o-transition: transform 1s ease-in-out, color 0.7s ease;
+}
+
+.ct div:hover {
+    color: #D9FB01; /* Change the text color on hover */
+    transform: scale(1.1);
+    font-size: 14vh; /* Increase font size on hover */
+}
+
+
+/* Responsive font sizes */
+@media (max-width: 576px) {
+    .custom-text-style {
+        font-size: 8vh; /* Reduce font size for smaller screens */
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .custom-text-style {
+        font-size: 10vh; /* Adjust font size for medium-sized screens */
+    }
+}
+
+
+
+
+
+/* 
+------------------------------------------------------------------
+        ei experience intro css starts
+------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .virtual h3, .where h3  , .star h3 , .meets h3 , .real h3 , .bb h3{
+    font-size: 13vh;
+    font-weight: 100;
+    font-family: "PP Supply Sans", sans-serif;
+    color: #111212;
+    
+}  */
+
+
+#ei {
+    margin-top: 35vh;
+    margin-bottom: 30vh;
+    position: relative;
+}
+
+.ei {
+    position: relative; /* Add relative positioning to enable absolute positioning of child elements */
+}
+
+
+.ei h3 {
+    color: #111212;
+    font-size: 8vw;
+    font-weight: 100;
+}
+
+.ei {
+    margin-bottom: 20px;
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 576px) {
+    .ei h3 {
+        font-size: 6vw;
+    }
+    .ei h1{
+        font-size: 8vw;
+        color:#fff;
+        font-family: "PP Supply Sans", sans-serif;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 577px) {
+    .ei h3 {
+        font-size: 6vw;
+        font-family: "PP Supply Sans", sans-serif;
+    }
+    .ei h1{
+        font-size: 10vw;
+        color:#fff;
+        font-family: "PP Supply Sans", sans-serif;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 769px) {
+    .ei h3 {
+        font-size: 7vw;
+        font-family: "PP Supply Sans", sans-serif;
+        
+    }
+    .ei h1{
+        font-size: 12vw;
+        color:#fff;
+        font-family: "PP Supply Sans", sans-serif;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 993px) {
+    .ei h3 {
+        font-size: 8vw;
+        font-family: "PP Supply Sans", sans-serif;
+    }
+    .ei h1{
+        font-size: 14vw;
+        color:#fff;
+        font-family: "PP Supply Sans", sans-serif;
+    }
+
+}
+
+/* Animation */
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(8px);
+    }
+}
+
+.ei h3 {
+    animation: floatAnimation 4s infinite ease-in-out;
+}
+
+
+
+
+
+
+
+
+.custom-style-eifirst {
+   
+    font-weight: 100;
+    font-family: "PP Supply Sans", sans-serif;
+    color: #111212;
+    margin-left: 100px;
+}
+
+/* .custom-style-eisecond {
+   
+    font-weight: 100;
+    font-family: "PP Supply Sans", sans-serif;
+    color: #111212;
+}
+.virtual{
+    margin-left:13%;
+}
+
+.star {
+    margin-left: 34%;
+   
+} */
+
+
+.custom-style-eisecond {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Add space between items */
+    padding: 10px; /* Adjust padding as needed */
+     /* Add background color if desired */
+}
+
+.custom-style-eisecond .virtual {
+    margin-left: 5vw; /* Adjust the distance as needed */
+}
+
+/* Add any additional styling as needed */
+.custom-style-eisecond h3 {
+    margin: 0; /* Reset margin to ensure no extra spacing */
+}
+/* .custom-style-eithird {
+    font-weight: 100;
+    font-family: "PP Supply Sans", sans-serif;
+    color: #111212;
+}
+
+.meets{
+    margin-left:30px;
+
+}
+
+.real {
+    margin-left: 30%;
+} 
+*/
+
+.custom-style-eithird {
+    display: flex;
+    align-items: start;
+    justify-content: space-between; /* Add space between items */
+    padding: 10px; /* Adjust padding as needed */
+     /* Add background color if desired */
+}
+
+/* Add any additional styling as needed */
+.custom-style-eithird h3 {
+    margin: 0; /* Reset margin to ensure no extra spacing */
+}
+
+.custom-style-eiexperience {
+    font-weight: 100;
+    font-family: "PP Supply Sans", sans-serif;
+    color: #ffff;
+   font-size: 15vw;
+   font-weight: 100;
+   margin-left: 117px;
+}
+
+
+/* Update the keyframes animations */
+/* Update the keyframes animations */
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(-15px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+
+/* Apply the updated animation to elements */
+.eifirst {
+    animation: floatAnimation 4s infinite ease-in-out; /* Adjust duration and easing function */
+}
+
+/* Update the keyframes animations */
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(8px);
+    }
+}
+
+/* Apply the updated animation to elements */
+.eisecond {
+    animation: floatAnimation 4s infinite ease-in-out; /* Adjust duration and easing function */
+}
+
+/* Update the keyframes animations */
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(-8px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(6px);
+    }
+}
+
+/* Apply the updated animation to elements */
+.eithird {
+    animation: floatAnimation 4s infinite ease-in-out; /* Adjust duration and easing function */
+}
+
+/* Update the keyframes animations */
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(2px);
+    }
+    25% {
+        transform: translateY(-6px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(4px);
+    }
+}
+
+/* Apply the updated animation to elements */
+.eifourth {
+    animation: floatAnimation 4s infinite ease-in-out; /* Adjust duration and easing function */
+}
+
+
+
+  
+
+
+
+
+
+/* Responsive font size adjustments */
+
+
+
+
+/* 
+------------------------------------------------------------------------------------------------
+ speaker  section css here 
+
+------------------------------------------------------------------------------------------------ */
+
+
+.section-heading {
+    color: #ffffff; /* White color */
+    text-transform: uppercase;
+    font-family: "PP Supply Sans", sans-serif;
+    font-size: 12vw; /* Responsive font size in viewport width */
+    letter-spacing: -14px;
+}
+
+
+
+
+
+/* 
+----------------------------------------------------------------
+sponsors and partner sp css :start
+--------------------------------------------------------------- */
+
+
+ 
+
+  .spheading h3{
+    color: #ffffff;
+    font-family: "Formula Condensed";
+    font-size: 8vw; /* Responsive font size in viewport width */
+    letter-spacing:1px;
+    color: #111212;
+}
+  .spnames {
+    font-family: "PP Supply Sans";
+    text-transform: uppercase;
+    color: #111212;
+    
+}
+
+.spnames hr{
+    justify-content: end;
+    text-align: end;
+    width: 100%;
+    border: 1px solid #000;
+}
+.spcontent {
+    margin-top: 56%;
+    font-family: "PP Supply Sans", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #111212;
+}
+
+
+/* Initial style for all sponsor names */
+.sponsor-name {
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    color: #111212;
+    font-family: "PP Supply Sans", sans-serif;
+    letter-spacing:4px;
+
+}
+
+/* Hover styles for all sponsors */
+.spfirst:hover .sponsor-name,
+.spsecond:hover .sponsor-name,
+.spthird:hover .sponsor-name,
+.spfourth:hover .sponsor-name,
+.spfifth:hover .sponsor-name,
+.spsixth:hover .sponsor-name,
+.spseventh:hover .sponsor-name{
+    color: white; /* Change color to white on hover */
+    transform: scale(1.2); /* Scale text on hover */
+}
+
+
+
+/* ----------------------------------------------------------------
+cta css-start
+---------------------------------------------------------------- */
+
+.cta-banner {
+    background-color: #000;
+    font-family: "Formula Condensed";
+    padding-left: 9%;
+    margin-left: 0%;
+}
+
+.get-your{
+    color: #C3C3C3;
+    font-size: 75px;
+    letter-spacing: 1px;
+}
+
+.tickets{
+    color: #D9FB01; /* Yellow color for "TICKETS" text */
+    font-size: 75px; /* Adjust font size as needed */
+    letter-spacing: 1px;
+
+}
+
+.now{
+    color: #FFFFFF; /* White color for "NOW" text */
+    font-size: 75px; /* Adjust font size as needed */
+    letter-spacing: 1px;
+
+}
+.buy-now-button{
+    background-color: #D9FB01;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border:1px solid #000;
+}
+.buy-now-button:hover {
+    background-color: #BCE32C; /* Adjust the hover color as needed */
+    color:#fff;
+    border: 1px solid #000;
+}
+
+
+/* 
+----------------------------------------------------------------
+foooter css :start
+---------------------------------------------------------------- */
+
+.site-footer{
+    background-color: #000;
+    background-color: #000;
+    font-family: "Formula Condensed";
+    
+}
+
+
+.signup-text{
+    color: #D9FB01;
+    font-size: 70px;
+    letter-spacing: 1px;
+    
+}
+
+.togetour{
+    color: #C3C3C3;
+    letter-spacing: 1px;
+    font-size: 70px;
+}
+
+.updates-text{
+    font-size: 70px;
+    color:#FFFFFF;
+    letter-spacing: 2px;
+}
+
+input[type="email"]{
+    border-radius: 5px;
+    width: 30%;
+    
+    background-color: #C3C3C3;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+}
+
+.submit-button{
+    background-color: #D9FB01;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #000;
+    -webkit-border-radius: 1px solid blac;
+    -moz-border-radius: 1px solid blac;
+    -ms-border-radius: 1px solid blac;
+    -o-border-radius: 1px solid blac;
+}
+
+
+.submit-button:hover{
+    background-color: #BCE32C; /* Adjust the hover color as needed */
+    color: #FFFFFF;
+    border: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .custom-style-eiexperience {
+        font-size: 10vw;
+    }
+    .game3dev-text-left{
+        font-size: 17vw;
+    }
+    .AMetadecryptEventPoweredByRock34x{
+        font-size: 1.7vw;
+    }
+    .Date25 {
+        margin-top: 18px;
+        margin-left: -62px;
+    }
+    .mine{
+
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+        .custom-style-eiexperience {
+            
+            font-size: 10vw;
+        }
+}
+
+@media screen and (min-width: 993px) {
+    .custom-style-eiexperience {
+        
+        font-size: 10vw; /* Adjust font size for larger screens */
+    }
+}
+/*   
+
+/* Small screens (up to 320px) */
+
+@media screen and (max-width: 320px) {
+    .topbtn {
+        top: 96%;
+        position: absolute;
+       
+    }
+    .mine {
+        top: -115vw;
+        position: relative;
+        left: 79vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 30vw;
+        letter-spacing: 0.2vw;
+        margin-top: 18vw;
+    }
+    .summit h1.text-end {
+        font-size: 35vw;
+        letter-spacing: 0.2vw;
+        margin-top: 25vw;
+        margin-left: 15vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 11vw;
+        margin-top: 20vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 12vw;
+    }
+    .year2024 h3 {
+        font-size: 18vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens up to 320px go here */
+}
+
+/* Medium screens (321px to 335px) */
+@media screen and (min-width: 321px) and (max-width: 335px) {
+    .topbtn {
+        top: 96%;
+        position: absolute;
+       
+    }
+    .mine {
+        top: -115vw;
+        position: relative;
+        left: 79vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 30vw;
+        letter-spacing: 0.2vw;
+        margin-top: 18vw;
+    }
+    .summit h1.text-end {
+        font-size: 35vw;
+        letter-spacing: 0.2vw;
+        margin-top: 25vw;
+        margin-left: 15vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 11vw;
+        margin-top: 20vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 12vw;
+    }
+    .year2024 h3 {
+        font-size: 18vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 321px to 335px go here */
+}
+
+
+
+
+
+/* Medium screens (336px to 350px) */
+@media screen and (min-width: 336px) and (max-width: 350px) {
+    .topbtn {
+        top: 89%;
+        position: absolute;
+    }
+    .mine {
+        top: -108vw;
+        position: relative;
+        left: 79vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 30vw;
+        letter-spacing: 0.2vw;
+        margin-top: 18vw;
+    }
+    .summit h1.text-end {
+        font-size: 35vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 11vw;
+        margin-top: 20vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 9vw;
+    }
+    .year2024 h3 {
+        font-size: 18vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 336px to 350px go here */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium screens (351px to 365px) */
+@media screen and (min-width: 351px) and (max-width: 365px) {
+
+    .topbtn {
+        top: 90%;
+        position: absolute;
+    }
+    .mine {
+        top: -108vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 28vw;
+        letter-spacing: 0.2vw;
+        margin-top: 14vw;
+    }
+    .summit h1.text-end {
+        font-size: 31vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 11vw;
+        margin-top: 8vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 9vw;
+    }
+    .year2024 h3 {
+        font-size: 15vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+}
+
+    /* Your styles for screens from 351px to 365px go here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium screens (366px to 375px) */
+@media screen and (min-width: 366px) and (max-width: 375px) {
+    .topbtn {
+        top: 90%;
+        position: absolute;
+    }
+    .mine {
+        top: -108vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 28vw;
+        letter-spacing: 0.2vw;
+        margin-top: 14vw;
+    }
+    .summit h1.text-end {
+        font-size: 31vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 11vw;
+        margin-top: 8vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 9vw;
+    }
+    .year2024 h3 {
+        font-size: 15vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+}
+
+    /* Your styles for screens from 366px to 375px go here */
+}
+
+
+/* Medium screens (376px to 390px) */
+
+@media screen and (min-width: 376px) and (max-width: 385px) {
+
+
+    /* Styles for the first breakpoint */
+    /* These styles will apply to screens with widths between 376px and 385px */
+    .topbtn {
+        top: 90%;
+        position: absolute;
+    }
+    .mine {
+        top: -108vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 28vw;
+        letter-spacing: 0.2vw;
+        margin-top: 14vw;
+    }
+    .summit h1.text-end {
+        font-size: 31vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 11vw;
+        margin-top: 8vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 9vw;
+    }
+    .year2024 h3 {
+        font-size: 15vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (min-width: 386px) and (max-width: 390px) {
+    /* Styles for the second breakpoint */
+    /* These styles will apply to screens with widths between 386px and 390px */
+
+    .topbtn {
+        top: 89%;
+        position: absolute;
+    }
+    .mine {
+        top: -102vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 25vw;
+        letter-spacing: 0.2vw;
+        margin-top: 14vw;
+    }
+    .summit h1.text-end {
+        font-size: 34vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 9vw;
+        margin-top: 6vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 9vw;
+    }
+    .year2024 h3 {
+        font-size: 15vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+
+
+}   
+/* Medium screens (391px to 405px) */
+@media screen and (min-width: 391px) and (max-width: 405px) {
+    .topbtn {
+        top: 88%;
+        position: absolute;
+    }
+    .mine {
+        top: -98vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 26vw;
+        letter-spacing: 0.2vw;
+        margin-top: 11vw;
+    }
+    .summit h1.text-end {
+        font-size: 32vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2 {
+        font-size: 9vw;
+        margin-top: 4vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 391px to 405px go here */
+}
+
+/* Medium screens (406px to 420px) */
+@media screen and (min-width: 406px) and (max-width: 420px) {
+    .topbtn {
+        top: 90%;
+        position: absolute;
+    }
+    .mine {
+        top: -96vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 26vw;
+        letter-spacing: 0.2vw;
+        margin-top: 10vw;
+    }
+    .summit h1.text-end {
+        font-size: 32vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 33vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2{
+        font-size: 9vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 406px to 420px go here */
+}
+
+/* Medium screens (421px to 425px) */
+@media screen and (min-width: 421px) and (max-width: 425px) {
+    .topbtn {
+        top: 90%;
+        position: absolute;
+    }
+    .mine {
+        top: -97vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 24vw;
+        letter-spacing: 0.2vw;
+        margin-top: 10vw;
+    }
+    .summit h1.text-end {
+        font-size: 30vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 32vw;
+        margin-left: -13px;
+
+    }
+
+    .Date25 h2{
+        font-size: 9vw;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 421px to 425px go here */
+}
+
+
+
+
+
+
+/* Medium screens (426px to 440px) */
+@media screen and (min-width: 426px) and (max-width: 440px) {
+    .topbtn {
+        top: 90%;
+        position: absolute;
+    }
+    .mine {
+        top: -97vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 24vw;
+        letter-spacing: 0.2vw;
+        margin-top: 10vw;
+    }
+    .summit h1.text-end {
+        font-size: 30vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 32vw;
+        margin-left: -13px;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 426px to 440px go here */
+}
+
+
+
+
+
+
+
+/* Medium screens (441px to 455px) */
+@media screen and (min-width: 441px) and (max-width: 455px) {
+    .topbtn {
+        top: 89%;
+        position: absolute;
+    }
+
+
+    .mine {
+    top: -91vw;
+    position: relative;
+    left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 24vw;
+        letter-spacing: 0.2vw;
+        margin-top: 7vw;
+    }
+    .summit h1.text-end {
+        font-size: 30vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 29vw;
+        margin-left: -13px;
+    }
+   .AMetadecryptEventPoweredByRock34x {
+    font-size: 2.7vw;
+}
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+
+    /* Your styles for screens from 441px to 455px go here */
+}
+
+/* Medium screens (456px to 470px) */
+@media screen and (min-width: 456px) and (max-width: 470px) {
+    .topbtn {
+        top: 89%;
+        position: absolute;
+    }
+    .mine {
+        top: -89vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 23vw;
+        letter-spacing: 0.2vw;
+        margin-top: 7vw;
+    }
+    .summit h1.text-end {
+        font-size: 23vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 29vw;
+        margin-left: -13px;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+
+    /* Your styles for screens from 456px to 470px go here */
+}
+
+/* Medium screens (471px to 480px) */
+@media screen and (min-width: 471px) and (max-width: 480px) {
+    .topbtn {
+        top: 89%;
+        position: absolute;
+    }
+    .mine {
+        top: -89vw;
+        position: relative;
+        left: 82vw;
+    }
+
+    .game3dev-text-left {
+        font-size: 23vw;
+        letter-spacing: 0.2vw;
+        margin-top: 7vw;
+    }
+    .summit h1.text-end {
+        font-size: 23vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 29vw;
+        margin-left: -13px;
+    }
+    .AMetadecryptEventPoweredByRock34x {
+        font-size: 2.5vw;
+    }
+
+    .RiyadhSa h3 {
+        font-size: 7vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+
+
+    /* Your styles for screens from 471px to 480px go here */
+}
+
+
+/* Medium screens (481px to 520px) */
+@media screen and (min-width: 481px) and (max-width: 520px) {
+    .topbtn {
+        top: 88%;
+        position: absolute;
+    }
+    .mine {
+        top: -70vw;
+        position: relative;
+        left: 84vw;
+    }
+    /* Your styles for screens from 481px to 520px go here */
+
+    .game3dev-text-left {
+        font-size: 20vw;
+        letter-spacing: 0.2vw;
+    }
+    .summit h1.text-end {
+        font-size: 25vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 18px;
+        margin-left: -13px;
+    }
+    .AMetadecryptEventPoweredByRock34x{
+        font-size: 1.9vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+}
+
+
+
+
+
+/* Medium screens (521px to 576px) */
+@media screen and (min-width: 521px) and (max-width: 576px) {
+    .topbtn {
+        top: 92%;
+        position: absolute;
+    }
+    .mine {
+        top: -69vw;
+        position: relative;
+        left: 85vw;
+    }
+    /* Your styles for screens from 577px to 668px go here */
+
+    .game3dev-text-left {
+        font-size: 20vw;
+        letter-spacing: 0.2vw;
+    }
+    .summit h1.text-end {
+        font-size: 24vw;
+        letter-spacing: 0.2vw;
+    }
+    .Date25 {
+        margin-top: 18px;
+        margin-left: -13px;
+    }
+    .AMetadecryptEventPoweredByRock34x{
+        font-size: 1.9vw;
+    }
+    .year2024 h3 {
+        font-size: 10vw;
+    }
+    .APR h3.text-end {
+        font-size: 10vw;
+    }
+    /* Your styles for screens from 521px to 576px go here */
+}
+
+
+
+
+
+
+/* Medium screens (577px to 668px) */
+@media screen and (min-width: 577px) and (max-width: 668px) {
+    .topbtn {
+        top: 87%;
+        position: absolute;
+    }
+    .mine {
+        top: -44vw;
+        position: relative;
+        left: 74vw;
+    }
+    /* Your styles for screens from 577px to 668px go here */
+
+    .game3dev-text-left{
+        font-size: 18vw;
+        letter-spacing: 0.2vw;
+    }
+    .AMetadecryptEventPoweredByRock34x{
+        font-size: 1.9vw;
+    }
+    .Date25 {
+        margin-top: 18px;
+        margin-left: -51px;
+    }
+    .summit h1.text-end {
+        font-size: 21vw;
+        letter-spacing: 0.2vw;
+    }
+    .year2024 h3 {
+        font-size: 9.2vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Medium screens (669px to 768px) */
+@media screen and (min-width: 669px) and (max-width: 768px) {
+    .topbtn {
+        top: 86%;
+        position: absolute;
+        width: 100%;
+    }
+    .mine {
+    top: -48vw;
+    position: relative;
+    left: 71vw;
+}
+.game3dev-text-left{
+    font-size: 17vw;
+}
+.AMetadecryptEventPoweredByRock34x{
+    font-size: 1.7vw;
+}
+.Date25 {
+    margin-top: 18px;
+    margin-left: -62px;
+}
+.summit h1.text-end{
+    font-size: 17vw;
+}
+    /* Your styles for screens from 669px to 768px go here */
+}
+
+@media screen and (max-width: 768px) {
+    .custom-style-eiexperience {
+        font-size: 10vw;
+    }
+    
+}
+
+
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+        .custom-style-eiexperience {
+            
+            font-size: 10vw;
+        }
+        .game3dev-text-left{
+            font-size: 17vw;
+        }
+        .AMetadecryptEventPoweredByRock34x{
+            font-size: 1.7vw;
+        }
+        .Date25 {
+            margin-top: 18px;
+            margin-left: -32px;
+        }
+}
+
+@media screen and (min-width: 993px) {
+    .custom-style-eiexperience {
+        
+        font-size: 10vw; /* Adjust font size for larger screens */
+    }
+    .game3dev-text-left{
+        font-size: 17vw;
+    }
+    .AMetadecryptEventPoweredByRock34x{
+        font-size: 1.7vw;
+    }
+    .Date25 {
+        margin-top: 18px;
+    }
+}
